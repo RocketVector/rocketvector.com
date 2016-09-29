@@ -17,3 +17,8 @@ github_username:  rocketvector
 
 # Build settings
 markdown: kramdown
+
+# Config:
+gems:
+  - jekyll-redirect-from
+
