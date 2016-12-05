@@ -156,3 +156,24 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }           
+
+
+.page-container {
+    max-width: 600px;
+    padding: 20px;
+
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+    h1, h2 {
+        position: static;
+    }
+
+    a {
+        cursor: pointer;
+    }
+    
+}
+
+body.body-page {
+    height: auto;
+}
