@@ -1,0 +1,179 @@
+---
+---
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #FFC202;
+    background-image: linear-gradient(-180deg, #FFC202 0%, #FFA300 100%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+}
+
+// .container:after, body:after {
+//   content: "";
+//   display: table;
+//   clear: both;
+// }
+
+@media (max-width:1024px) {
+    .container {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: white;
+        font-size: 34px;
+        font-weight: bold;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    h2 {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: normal;
+        position: relative;
+        left: 0px;
+        top: 0px;
+        opacity: 0.8;
+        text-align: center;
+        margin: 0px;
+        padding: 0px 10px;
+    }
+    
+    .copyright {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        font-size: 15px;
+        opacity: 0.5;
+        text-align: center;
+    }
+    
+    .button img {
+        display: block;
+        margin: 0px auto;
+        max-width: 100%;
+    }
+    
+    .phone {
+        max-width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+}
+
+@media (min-width:1025px) {
+
+    .container {
+        height: 960px;
+        left: 0px;
+        width: 100%;
+        position: relative;
+    }
+    
+    .ticks {
+        width: 100%;
+        height: 26px;
+        background: url(/simple-scales/ticks.svg);
+        opacity: 0.5;
+    }
+    
+    .phone {
+        position: absolute;
+        top: 0px;
+        left: 180px;
+        z-index: 2;
+    }
+    
+    .ticks {
+        z-index: 1;
+        position: absolute;
+        top: 650px;
+    }
+    
+    h1 {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: white;
+        font-size: 54px;
+        font-weight: bold;
+        position: absolute;
+        left: 750px;
+        top: 210px;
+    }
+    
+    h2 {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: white;
+        font-size: 28px;
+        font-weight: normal;
+        position: absolute;
+        left: 750px;
+        top: 290px;
+        opacity: 0.8;
+    }
+    
+    .copyright {
+        font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+        color: black;
+        font-size: 18px;
+        opacity: 0.5;
+        position: absolute;
+        bottom: 20px;
+        left: 750px
+    }
+    
+    .button {
+        position: absolute;
+        left: 725px;
+        top: 460px;
+    }
+    
+}
+
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}           
+
+
+.page-container {
+    max-width: 600px;
+    padding: 20px;
+
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+
+    h1, h2 {
+        position: static;
+    }
+
+    a {
+        cursor: pointer;
+    }
+    
+}
+
+body.body-page {
+    height: auto;
+}

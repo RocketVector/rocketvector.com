@@ -9,13 +9,16 @@
 title: Rocket Vector
 email: inbox@christophermuller.net
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  We make simply good apps.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://rocketvector.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: rocket_vector
+github_username:  rocketvector
 
 # Build settings
 markdown: kramdown
+
+# Config:
+gems:
+  - jekyll-redirect-from
+
